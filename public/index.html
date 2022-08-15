@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restoran Hrdini</title>
+</head>
+<body class="font-Poppins">
+
+    <!-- Baris #1 -->
+    <header>
+        <nav class="container flex items-center mt-4 py-4">
+            <div>
+                <img src="./img/Hrdini.com.png" alt="" />
+            </div>
+            <ul class="hidden sm:flex flex-1 justify-end gap-10 uppercase items-center text-xs">
+                <li>Menu</li>
+                <li>Harga</li>
+                <li>Kontak</li>
+                <button class="bg-abu-abu py-3 px-9 uppercase text-white rounded-md" type="button">Login</button>
+            </ul>
+            <div class="flex flex-1 justify-end sm:hidden">
+                <img class="w-2/12" src="./icon/menu.svg" alt="" />
+            </div>
+        </nav>
+    </header>
+
+    <!-- Baris #2 main -->
+    <section class="relative mt-5">
+        <div class="container flex flex-col-reverse lg:flex-row items-center gap-10">
+            <div class="flex flex-1 flex-col gap-5 items-center lg:items-start ">
+                <h1 class="text-center text-3xl lg:text-left">Restoran Hrdini</h1>
+                <p class="text-center text-lg text-abu-abu lg:text-left">
+                    Restoran Hrdini berhasil menempati posisi kedua sebagai restoran terbaik di dunia setelah sebelumnya berada di peringkat ke-49 pada 2012. Restoran yang dikelola langsung oleh koki pertama di Indonesia yang mendapatkan bintang tiga Michelin, Chef Dini ini selalu menyajikan menu lezat nan estetis. 
+                    Chef Dini sendiri dikenal memiliki kemampuan intuitif yang luar biasa sehingga mampu membuat kombinasi menu dengan warna, rasa, jumlah, dan keindahan di satu piring.</p>
+                    <div class="flex justify-center gap-6 flex-wrap px-10 lg:px-0 ">
+                        <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-white hover:text-black transition duration-700">Order Sekarang</button>
+                        <button class="py-3 px-5 bg-putih rounded-md hover:bg-abu-abu hover:text-white transition duration-700">Daftar Sekarang</button>
+                    </div>
+            </div>
+                
+                <div class="flex flex-1 justify-center z-10">
+                    <img class="rounded-lg w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/resto.jpg" alt="" />
+                </div>
+                <div class="bg-merah hidden md:block h-80 w-1/2 rounded-l-full absolute right-0 top-32">
+                </div>
+        </div>
+    </section>
+
+    <!-- Baris #3 flip -->
+    <section class="bg-putih mt-20 lg:mt-60">
+        <div class="py-8">
+            <h1 class="text-center text-3xl">Menu Recommended</h1>
+            <p class="text-center mt-3 text-abu-abu">Ingin tahu apa sih menu-menu favorit di Restoran Hrdini yang bikin ngiler?
+                Yukk langsung scroll kebawah!
+            </p>
+        </div>
+
+        <div class="relative">
+            <div class="container flex flex-col lg:flex-row items-center gap-x-7 gap-y-4">
+                <div class="flex flex-1 justify-center z-10">
+                    <img class="w-5/6 h-5/6 rounded-lg sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/chicken parmesan.jpg" alt="" />
+                </div>
+
+                <div class="flex flex-1 flex-col items-center lg:items-start gap-y-3">
+                    <h1 class="text-3xl">Chicken Parmesan</h1>
+                    <p class="text-center mt-3 lg:text-left text-abu-abu">Chicken Parmesan (juga disebut Chicken Parmigiana) adalah salah satu resep ayam yang paling dicintai, paling populer dan paling banyak dipesan di dunia.
+                        Menu ini merupakan makanan khas Italia, menggunakan ayam yang dilapisi tepung panir beserta saus yang khas berpadu dengan lelehan keju.</p>
+                        <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-white hover:text-black transition duration-700">Cobain Gratis!</button>
+                </div>
+            </div>
+
+            <div class="bg-merah h-80 w-1/2 hidden overflow-hidden lg:block absolute -bottom-24 -left-36 rounded-r-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Baris #4 flop -->
+    <section class="relative mt-20 lg:mt-60">
+        <div class=" container flex flex-col-reverse lg:flex-row items-center gap-10">
+            <div class="flex flex-1 flex-col gap-5 lg:item-start">
+                <h1 class="text-center text-3xl lg:text-left"> Oglio</h1>
+                <p class="text-center text-abu-abu lg:text-left">
+                    Spaghetti Oglio adalah pasta Italia tradisional dari Naples. Hidangan ini dibuat dari tumisan yang diiris, dicincang atau perasan sari bawang putih dalam minyak zaitun, 
+                    kadang-kadang dengan tambahan bubuk cabai kering, dan dicampur dengan spageti 
+                </p>
+                
+                <div class="flex justify-start gap-6 flex-wrap px-10 lg:px-0">
+                    <button class="py-3 px-5 bg-merah rounded-md text-putih hover:bg-putih hover:text-black transition duration-700">Coba Gratis</button>
+                </div>
+            </div>
+
+            <div class="flex flex-1 justify-center z-10">
+                <img class="rounded-lg w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/oglio.png" alt="">
+            </div>
+
+            <div class="bg-merah hidden md:block h-80 w-1/2 rounded-l-full absolute right-0 top-32">
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Baris #5 card -->
+    <section class="mt-20 lg:mt-60 bg-putih">
+        <h1 class="text-center text-3xl font-bold">Minuman Favorit</h1>
+        <hr> <br>
+        
+        <div class="relative mt-4">
+            <div class="container flex flex-col lg:flex-row justify-center items-center gap-x-7 gap-y-4">
+
+                <!-- card 1 -->
+                <div class="w-72 bg-white shadow-xl rounded-xl overflow-hidden group">
+                    <img class="h-56 object-cover w-full sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/lychee.png" alt="">
+                    
+                    <div class="px-3 py-3 hover:bg-merah hover:text-white">
+                        <h2 class="text-center text-2xl font-bold mt-3">Lychee Tea</h2>
+                        <h2 class="text-center">Mulai dari Rp5.000</h1>
+                        
+                            <p class="text-center mt-3 lg:text-left text-hitam hover:text-white">
+                                Es teh leci yang segar dan harum, minuman dingin ini sangat cocok sekali di 
+                                hidangkan di siang hari dapat juga dinikmati dengan keadaan panas.</p>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="w-72 min-h-[10rem] bg-white shadow-xl rounded-xl overflow-hidden group">
+                    <img class="h-56 w-full object-cover sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/latte.jpg" alt="">
+                    
+                    <div class="px-3 py-3 hover:bg-merah hover:text-white">
+                        <h2 class="text-center text-2xl font-bold mt-3">Latte</h2>
+                        <h2 class="text-center">Mulai dari Rp8.000</h1>
+                            <p class="text-center mt-3 lg:text-left text-hitam hover:text-white">
+                                Latte atau Caffè latte adalah espresso atau kopi yang dicampur dengan susu dan memiliki lapisan busa yang tipis di bagian atasnya. 
+                                Perbandingan susu kopi adalah 2:1.
+                            </p>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="w-72 min-h-[10rem] bg-white shadow-2xl rounded-xl overflow-hidden group">
+                    <img class="h-56 object-cover sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./img/boba.png" alt="">
+                    
+                    <div class="px-3 py-3 hover:bg-merah hover:text-white">
+                        <h2 class="text-center text-2xl font-bold mt-3">Drink Boba</h2>
+                        <h2 class="text-center">Mulai dari : 5.000</h1>
+                            <p class="text-center mt-3 lg:text-left text-hitam hover:text-white">
+                                Boba tea merupakan salah satu minuman kekinian yang banyak digemari.
+                                Karena teksturnya yang kenyal dan unik, serta terdiri dari berbagai rasa.
+                            </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- Baris #6 rounded-->
+    <section class="mt-20">
+         <div>
+            <div class="flex flex-1 justify-center container flex flex-col items-center ">
+            
+                    <img class="rounded-full md:h-60 md:w-60" src="./img/chef1.jpg" alt="">
+                    <h1 class="text-3xl mt-3 items-center">Chef Jati</h1>
+                    <p class="text-center mt-3 text-abu-abu">
+                        Chef Jati adalah salah satu kontestan ajang memasak di Australia yang berasal dari Indonesia. Hasil kreativitas masakannya di puji banyak orang tidak hanya juri acara, bahkan dirinya mendapat julukan “King of Dessert”. 
+                        Kemampuannya mengolah dessert kemudian membuatnya terus meniti karirnya di bidang kuliner dan membuka bisnis kuliner yang menyajikan dessert.
+                    </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-20">
+        <div>
+            <div class="flex flex-1 justify-center container flex flex-col items-center ">
+            
+                    <img class="rounded-full md:h-60 md:w-60" src="./img/chef2.jpg" alt="">
+                    <h1 class="text-3xl mt-3 items-center">Chef Dini</h1>
+                    <p class="text-center mt-3 text-abu-abu">
+                        Chef Dini adalah seorang chef yang mengenalkan kue terkenal red velvet di Indonesia. Pernah menjadi seorang pembawa acara di TV Indonesia dan mendapat julukan Queen of Pastry Indonesia. Lulusan Singapore Hotel and tourism Education Center dengan jurusan Pastry dan Baking ini akhirnya mendapat pengakuan dari banyak pihak tentang karirnya. Karirnya sebagai salah seorang chef dunia dapat dilihat dari keberhasilannya yang mendapat medali perunggu dalam kontes memasak Wedding Cake Competition Food Hotel Asia 2006. 
+                        Selain itu juga dirinya pernah mendapat penghargaan World Gourmet Summit dan Young Chef Award.
+                    </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-20">
+        <div>
+            <div class="flex flex-1 justify-center container flex flex-col items-center ">
+            
+                    <img class="rounded-full md:h-60 md:w-60" src="./img/chef3.jpg" alt="">
+                    <h1 class="text-3xl mt-3 items-center">Chef June</h1>
+                    <p class="text-center mt-3 text-abu-abu">
+                        Seorang Chef yang sudah banyak dikenal oleh masyarakat Indonesia karena pernah memiliki sebuah acara memasak di salah satu TV swasta di Indonesia. Berasal dari keluarga yang juga berada pada dunia kuliner, membuat Chef June sudah sangat familiar dengan dapur dan kegiatan memasak. Hal tersebut juga di dukung oleh orang tuanya yang membawanya sampai menjadi chef junior hotel di Uni Emirate Arab dan Bahrain. 
+                        Setelah 14 tahun bekerja di hotel bintang lima di luar negeri akhirnya Chef June memutuskan untuk kembali ke Indonesia dan memulai bisnis kuliner pada 2010.
+                    </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Baris #7 FAQ-->
+    <section class="mt-20 lg:mt-60 bg-putih">
+        <div>
+            <div class="text-center">
+                <h1 class="text-3-xl">FAQ</h1>
+                <p class="text-abu-abu">
+                    Everything You Need To Know
+                </p>
+            </div>
+
+        <div>
+            <div class="mt-20 lg:mt-20 flex flex-col items-center">
+                <div class="flex gap-5">
+                    <span>Informasi Promo Terkini</span>
+                    <img class="w-4" src="./icon/arrow.svg" alt="" />
+                </div>
+                
+                <div class="flex flex-row gap-5">
+                    <span>Bagaimana Cara Mengubah Pesanan</span>
+                    <img class="w-4" src="./icon/arrow.svg" alt="" />
+                </div>
+                
+                <div class="flex flex-row gap-5">
+                    <span>Di Platform Mana Saja Dapat mMlakukan Pembelian Produk</span>
+                    <img class="w-4" src="./icon/arrow.svg" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="flex flex-1 justify-center">
+            <button class="py-3 px-5 bg-merah rounded-md text-putih text-center hover:bg-putih hover:text-black transition duration-1000 mt-10">
+                
+                Info Lebih Lanjut
+            </button>
+        </div>
+
+    <!-- Baris #8 kontak-->
+    <section class="mt-20 mb-0 pt-20 pb-20 bg-merah">
+        <div>
+            <div>
+                <p class="py-3 flex justify-center text-center text-putih">100.000+ Pelanggan</p>
+                <h1 class="flex justify-center text-center text-3xl text-putih">Ikut Berlangganan ?</h1>
+
+                <div class="flex flex-wrap justify-center z-10 gap-5 py-7">
+                    <input class="py-1 px-5 rounded" type="email" placeholder="Email Anda?"/>
+                    <button class="py-3 px-5 bg-biru rounded-md text-putih text-center hover:bg-putih hover:text-black transition duration-1000" type="button">Berlangganan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Baris #9 footer-->
+    <footer class="bg-biru">
+        <div class="container flex flex-col md:flex-row justify-center items-center py-2 gap-6">
+                <ul class="text-white flex flex-1 lg:justify-start gap-10 text-xs items-center justify-center">
+                    <li>Menu</li>
+                    <li>Harga</li>
+                    <li>Kontak</li>
+                </ul>
+
+                <div class="flex flex-1 gap-5 justify-end py-20 px-20">
+                    <img class="w-6" src="./icon/facebook.svg" alt="">
+                    <img class="w-6" src="./icon/twitter.svg" alt="">
+            </div>
+
+            
+            </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
